@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-app.get("/status", (req, res) => {
+app.get('/status', (req, res) => {
   res.json('Server Running');
 });
 
